@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lntinfotech\\Repos\\PlaneProject\\PlaneProject.csproj": {}
+    "C:\\Users\\Lntinfotech\\Documents\\Repos\\PlaneProject\\PlaneProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lntinfotech\\Repos\\PlaneProject\\PlaneProject.csproj": {
+    "C:\\Users\\Lntinfotech\\Documents\\Repos\\PlaneProject\\PlaneProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lntinfotech\\Repos\\PlaneProject\\PlaneProject.csproj",
+        "projectUniqueName": "C:\\Users\\Lntinfotech\\Documents\\Repos\\PlaneProject\\PlaneProject.csproj",
         "projectName": "PlaneProject",
-        "projectPath": "C:\\Users\\Lntinfotech\\Repos\\PlaneProject\\PlaneProject.csproj",
+        "projectPath": "C:\\Users\\Lntinfotech\\Documents\\Repos\\PlaneProject\\PlaneProject.csproj",
         "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lntinfotech\\Repos\\PlaneProject\\obj\\",
+        "outputPath": "C:\\Users\\Lntinfotech\\Documents\\Repos\\PlaneProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"

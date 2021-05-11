@@ -6,7 +6,14 @@ namespace PlaneProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Plane plane = new Plane();
+            for (var i = 0; i < plane.Seats.GetLength(0); i++){
+
+                for (var j = 0; j < plane.Seats.GetLength(1); j++){
+                    var letter = (char)(97 + j);
+                    plane.Seats[i,j].seatNumber = $"{i+1}{letter}"; 
+                }
+            }
         }
 
         enum SeatPosition {
@@ -16,15 +23,15 @@ namespace PlaneProject
         }
 
         public struct Seat {
-            string seatNumber;
+            public string seatNumber;
             SeatPosition seatPosition;
             bool isAvailable;
         }
 
         public class Plane {
-            string tailNumber;
-            string flightNumber;
-            Seat[,] Seats = new Seat[10,6];
+            public string tailNumber;
+            public string flightNumber;
+            public Seat[,] Seats = new Seat[10,6];
         }
     }
 }
